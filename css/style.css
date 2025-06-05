@@ -114,3 +114,10 @@ body{
  .custom-gradient {
     background: linear-gradient(to right, #292929, #ffffff, #676767, #ffffff);
   }
+
+  @media only screen and (max-width: 400px) {
+  .banner{
+    width: 900px;
+    margin: 0px auto;
+  }
+}
