@@ -4,14 +4,14 @@ function toggleAccordion(contentID, iconID, mainID) {
     const main = document.getElementById(mainID);
 
     if(content.classList.contains('hidden')){
-        // Open the accordion
+       
         content.classList.remove('hidden');
         main.style.height = '130px';
-        icon.textContent = '×'; // Using proper multiplication symbol
+        icon.textContent = '×'; 
     } else {
         // Close the accordion
         content.classList.add('hidden');
-        main.style.height = '80px'; // Reset to initial height
+        main.style.height = '80px'; 
         icon.textContent = '+';
     }
 }
